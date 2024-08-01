@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang= "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta http-equiv = "X-UA-Compatible" content = "IE-edge">
+        <meta name = "viewport" content = "width=device-width,
+         initial-scale=1.0">
+         <title id="title">Molemo's Portfolio website</title>
+         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+         <link href='https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css' rel="stylesheet">
+         <link rel= "stylesheet" href= "style.css">
+    </head>
+
+    <body>
+        <header class= "header" id="header">
+            <a href = "#" style="--i:1;" class = "logo"><span>Molemo's</span> Portfolio.</a>
+
+            <!--<box-icon name='menu'></box-icon> -->
+            <i class='bx bx-menu' id="menu-icon"></i>
+
+            <nav class = "navbar">
+                <a href = "#home" style="--i:1;" class="active">Home</a>
+                <a href = "#about" style="--i:2;">About Me</a>
+                <a href = "#skills" style="--i:3;">Skills</a>
+                <a href = "#projects" style="--i:4;">Projects</a>
+                <a href = "#contact" style="--i:5;">Contact Me</a>
+                
+            </nav>
+            <div class="bx bx-sun" id="lightmode"></div>
+            
+                        <!-- <div class="bx bx-sun" id="lightmode"></div> -->
+            <!-- <input type="checkbox" id="darkmode-toggle"/>
+            <label for="darkmode-toggle"></label> -->
+        </header>
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hello, my name is</h3>
+                <h1>Molemo Makhubu</h1>
+                <h3>And I'm a <span class="multiple-text"></span></h3>
+                <p>"Technology will never replace great teachers,
+                     but technology in the hands of great teachers
+                     is <span>transformational</span>." - <b>George Couras</b></p>
+                     <div class="media">
+                        <a target="_blank" href="https://www.linkedin.com/in/molemo-makhubu-1ab680235?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" style="--i:7;"><i class='bx bxl-linkedin-square' ></i></a>
+                        <a target="_blank" href="https://github.com/iammolemo" style="--i:8;"><i class='bx bxl-github' ></i></a>
+                        <a target="_blank" href="https://x.com/MolemoMakhubu" style="--i:9;"><i class='bx bxl-twitter'></i></a>
+                        <a target="_blank" href="https://www.instagram.com/molemo_makhubu/" style="--i:10;"><i class='bx bxl-instagram' ></i></a>
+                    </div>
+                    <a href="Molemo Makhubu CV.pdf" download class="button">Download CV</a>
+                    <button type="submit" class="button2" onclick="openPopup()">Hire Me</button>
+                    <div class="popup" id="popup">
+                        <h4>Personal Details</h4>
+                        <pre>
+
+                        Name: Molemo
+
+                        Surname: Makhubu
+
+                        Cell number: +27 67 196 8382
+
+                        Email Address: makhubumn22@gmail.com
+                        </pre>
+                        <button type="button" class="dnbutton" onclick="closePopup()">DONE</button>
+                    </div>
+
+                    <a href="#about" class="scroll">
+                        <div class="scroll-box">
+                            <i class='bx bxs-chevron-down'></i>
+                        </div>
+        
+                        <a class="scroll-text" text-decoration="none">Scroll Down</span>
+                    </a>
+                </div>
+               <!-- <div class="shadow"> -->
+                <div class="home-image">
+                    <img src="bnwSmile.jpg" alt="">
+                </div>
+
+        </section>
+
+        
+
+       <section class="about" id="about">
+        <div class="about-image">
+            <img src="bench.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="about-title">ABOUT <span>ME.</span></h2>
+        <h3>Software Developer</h3>
+        <p>
+            Having a solid background in computer science and practical expertise with contemporary programming languages,
+            I am an entry-level software developer who is enthusiastic about developing creative and effective software solutions.
+        </p>
+        <P class="txt2">
+            With my practical understanding of frameworks like Django, React and Angular along with my proficiency in languages like Python, JavaScript, and Java, I am able to confidently take on a variety of development jobs. 
+             I have a strong desire to always learn and grow, and I work best in groups where I can hone my technical abilities and contribute to team tasks. My objective is to advance in the industry by using my passion for problem-solving and coding to support dynamic development teams.
+        </P>
+        <!--<a href="#about" class="read-btn">Read More</a>-->
+        </div>
+        
+        <!--<div class="about-container container grid">
+            <div class="about-content">
+                <h3 class="info-title">GET TO KNOW ME BETTER</h3>
+                <p class="about-descrip">
+                    Passionate about creating <b>websites with beautiful interfaces</b>
+                    I have years of experience in web development with several projects created.
+                </p>
+
+                <a href ="" download="" target="blank" class="about-button"></a>
+            </div>
+         </div>
+
+        </div> -->
+       </section>
+
+       <section class="skills" id="skills">
+        <h2 class="skills-title">MY <span>SKILLS</span> AND <span>SERVICES.</span></h2>
+        <br>
+        <div class="skill-title">MY SKILLS</div>
+        <br>
+    <div class="skills-box">
+        <div class="skills-content">
+            <h4 class="front">Front-End:</h4>
+            <div class="content">
+                <span><i class='bx bxl-html5'></i>HTML</span>
+                <span><i class='bx bxl-css3'></i>CSS</span>
+                <span><i class='bx bxl-javascript' ></i>JAVASCRIPT</span>
+                <span><i class='bx bxl-react' ></i>REACT</span>
+                <span><i class='bx bxl-angular' ></i>ANGULAR</span>
+            </div>
+        </div>
+        
+        <div class="skills-content">   
+            <h4 class="back">Back-End:</h4>
+            <div class="content">
+                <span><i class='bx bxl-python'></i>PYTHON</span>
+                <span><i class='bx bxl-c-plus-plus'></i>C/C++</span>
+                <span><i class='bx bxl-visual-studio'></i>C#</span>
+                <span><i class='bx bxl-java' ></i>JAVA</span>
+                <span><i class='bx bxl-javascript' ></i>JAVASCRIPT</span>
+                <span><i class='bx bxl-postgresql' ></i>SQL</span>
+                <span><i class='bx bxl-mongodb'></i>MONGO-DB</span>
+            </div>
+        </div>
+    </div>    
+    <br> <br><hr color="#0ef"> <br> <br>
+        <div class="services-title">MY SERVICES</div>
+        <br>
+        <div class="services-container">
+            <div class="service-box">
+                <i class="ri-code-box-line service-icon"></i>
+                <h3 class="service-title">Website Design And Development</h3>
+                <p class="service-descrip-1">
+                    I build responsive websites that optimize digital experience with a focus on 
+                    <span>making them both aesthetically pleasing and easy to use through
+                        combining the technical with creativity for visually appealing and useful web solutions.</span>
+                </p>
+                <!--<a href="#" class="webDev-btn">Read More</a>-->
+            </div>
+
+            <div class="service-box">
+                <i class="ri-pencil-ruler-line service-icon"></i>
+                <h3 class="service-title">Web Application Development</h3>
+                <p class="service-descrip-2">
+                    I have experience designing and developing online apps, and 
+                    I employ the latest <span>frameworks and technologies to create user-friendly,
+                     dependable solutions.</span>
+                </p>
+                <!--<a href="#" class="webApp-btn">Read More</a>-->
+            </div>
+
+            <div class="service-box">
+                <i class="ri-database-2-line service-icon"></i>
+                <h3 class="service-title">Database Design And Management</h3>
+                <p class="service-descrip-3">
+                    With my background in database design and maintenance, I can build scalable,
+                     <span>effective database architectures that meet specific business requirements.
+                     I uphold data integrity and put strong data security measures in place.</span>
+                </p>
+                <!--<a href="#" class="DB-btn">Read More</a>-->
+            </div>
+
+            <div class="service-box">
+                <i class="ri-mac-line service-icon"></i>
+                <h3 class="service-title">Hardware Deployment</h3>
+                <p class="service-descrip-4">
+                    I effectively handle the installation, configuration, and upkeep of hardware systems.
+                    My goal is to ensure that all hardware works properly and is ready for its intended tasks
+                    to get the best possible performance.
+                </p>
+                <!--<a href="#" class="hardware-btn">Read More</a> -->
+            </div>
+        </div>
+
+<!--<div class="services-container">
+            <div class="services-title">MY SERVICES</div>
+
+            <article class="service-card">
+                <i class="ri-code-box-line service-icon"></i>
+                <h3 class="service-title">Web Development</h3>
+                <p class="service-descrip">
+                    Short description of the service offered
+                     to users to obtain personalized project.
+                </p>
+            </article>
+            
+
+            <article class="service-card">
+                <i class="ri-pencil-ruler-line service-icon"></i>
+                <h3 class="service-title">Web Design</h3>
+                <p class="service-descrip">
+                    Short description of the service offered
+                     to users to obtain personalized project.
+                </p>
+            </article>
+            <br>
+
+            <article class="service-card">
+                <i class="ri-layout-masonry-line service-icon"></i>
+                <h3 class="service-title">Responsive Web Design</h3>
+                <p class="service-descrip">
+                    Short description of the service offered
+                     to users to obtain personalized project.
+                </p>
+            </article>
+
+            <article class="service-card">
+                <i class="ri-seo-fill service-icon"></i>
+                <h3 class="service-title">SEO (Web pages)</h3>
+                <p class="service-descrip">
+                    Short description of the service offered
+                     to users to obtain personalized project.
+                </p>
+            </article>
+        </div> -->
+       </section>
+
+       <section class="projects" id="projects">
+        <h2 class="project-title">MY <span>PROJECTS.</span></h2>
+
+        <div class="project-container">
+            <div class="project-box">
+                <img src="movie-web.png" alt="">
+                <div class="project-layer">
+                    <h4>Movie-searching Site</h4>
+                    <p>This movie-searching app lets users find and explore movies by searching, retrieving
+                         and returning the movie names and thumbnails back to the user. </p>
+                    <a target="_blank" href=" https://iammolemo.github.io/Movie-Search-Site/"><i class="ri-external-link-line"></i></a>               
+                 </div>
+            </div>
+
+            <div class="project-box">
+                <img src="varsityCafeproj.jpg" alt="">
+                <div class="project-layer">
+                    <h4>Varsity Cafe System Project</h4>
+                    <p>With the help of this food ordering application, customers can browse different menus using their smartphone and order their favorite meals from Varsity Cafe.</p>
+                    <a target="_blank" href="https://github.com/iammolemo/VarsityCafeSystem-Project"><i class="ri-external-link-line"></i></a>               
+                 </div>
+            </div>
+
+            <div class="project-box">
+                <img src="musicproj.jpg" alt="">
+                <div class="project-layer">
+                    <h4>Music App</h4>
+                    <p>Your favorite songs can be streamed and organized by this app,
+                       making it easy for you to explore, play, and arrange your music collection. </p>
+                    <a target="_blank" href="https://iammolemo.github.io/Music-Player-App/"><i class="ri-external-link-line"></i></a>               
+                 </div>
+            </div>
+
+            <div class="project-box">
+                <img src="cryptoproject.webp" alt="">
+                <div class="project-layer">
+                    <h5>Cryptography Project</h5>
+                    <p>Together with my team, I developed a cryptography program that encrypts text files by employing sophisticated algorithms to transform the material into an unreadable,
+                         secure format that only authorized users can decrypt and access the original data using a key</p>
+                    <a target="_blank" href="https://github.com/iammolemo/Encryption-Group-Project"><i class="ri-external-link-line"></i></a>               
+                 </div>
+            </div>
+
+            <div class="project-box">
+                <img src="weatherproj.jpg" alt="">
+                <div class="project-layer">
+                    <h4>Weather App</h4>
+                    <p>This weather app collects and displays real-time weather data from online sources, 
+                       providing users with accurate and up-to-date weather information based on their location.                    </p>
+                    <a target="_blank" href="https://iammolemo.github.io/WeatherApp/"><i class="ri-external-link-line"></i></a>               
+                 </div>
+            </div>
+
+            <div class="project-box">
+                <img src="tmtproj.jpg" alt="">
+                <div class="project-layer">
+                    <h5>TMT System Project</h5>
+                    <p>My team and I built this app which enables schools to easily order uniforms from tailors by selecting styles,
+                       sizes, and quantities, streamlining the bulk purchasing process. </p>
+                    <a target="_blank" href="https://github.com/iammolemo/TMT-System-Project"><i class="ri-external-link-line"></i></a>               
+                 </div>
+            </div>
+        </div>
+       </section>
+
+       <section class="contact" id="contact">
+        <h2 class="contact-title">CONTACT <span>ME!</span></h2>
+        
+        <div class="contact-image">
+            <img src="contactMe.jpg" alt="" >
+       </div>
+            <form action="#">
+                <div class="input-box">
+                    <input type="text"  id="name" placeholder="Full Name"  class="contact-input" autocomplete="off">
+                    <input type="email" id="email" placeholder="Email Address"  class="contact-input" autocomplete="off">
+                </div>
+                <div class="input-box">
+                    <input type="number" id="number" placeholder="Mobile Number:"  class="contact-input" autocomplete="off">
+                    <input type="text" id="subject" placeholder="Email Subject"  class="contact-input" autocomplete="off">
+                </div>
+
+                <textarea id="message" cols="30" rows="10" placeholder="Your Message"  class="contact-input" autocomplete="off"></textarea>
+                <!--<input type="submit" value="Send Message" class="sendBtn" > -->
+                <!--<p class="contact-message"></p>-->
+                <button class="sendBtn" type="submit">Send</button>
+            </form>
+       </section>
+
+       <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Molemo | All rights reserved.</p>
+            <div class="footer-top">
+                <a href="#home"><i class="ri-arrow-up-line"></i></a>
+            </div>
+        </div>
+       </footer>
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src ="script.js"></script>
+    </body>
+</html>
